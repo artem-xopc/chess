@@ -11,6 +11,7 @@
   width: 100vw;
   height: 100vh;
   background-color: #20242b;
+  color: #fff;
 }
 
 .board {
@@ -56,4 +57,14 @@
 .underAttack{
   background-color: #790707;
   border-radius: 50%;
+}
+
+.lost {
+  height: calc(50vh - 60px);
+  padding: 30px;
+  margin-left: 50px;
+  margin-top: 5px;
+  background-color: #dfc7ad;
+  border-radius: 5px;
+  color: #20242b;
 }
